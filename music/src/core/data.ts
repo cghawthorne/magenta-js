@@ -16,7 +16,7 @@
  * =============================================================================
  */
 import * as sequences from './sequences';
-import * as tf from '@tensorflow/tfjs';
+import * as tf from '@tensorflow/tfjs-core';
 import {NoteSequence, INoteSequence} from '../protobuf/index';
 import {isNullOrUndefined} from 'util';
 

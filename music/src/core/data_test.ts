@@ -18,7 +18,7 @@
 import * as data from './data';
 import * as sequences from './sequences';
 import * as test from 'tape';
-import * as tf from '@tensorflow/tfjs';
+import * as tf from '@tensorflow/tfjs-core';
 import {NoteSequence} from '../protobuf/index';
 
 const MEL_NS = NoteSequence.create({

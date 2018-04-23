@@ -16,7 +16,7 @@
  */
 
 import * as mm from '../src/index';
-import * as tf from '@tensorflow/tfjs';
+import * as tf from '@tensorflow/tfjs-core';
 import * as clone from 'clone';
 
 const CHECKPOINTS_DIR =
